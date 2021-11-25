@@ -1,0 +1,23 @@
+{
+  "name": "digital-currency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethereumjs-wallet": "^1.0.0",
+    "truffle-contract-size": "^2.0.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-wallet-provider": "0.0.5",
+    "zeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
