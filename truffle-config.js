@@ -11,11 +11,12 @@ module.exports = {
      port: 7545,
      network_id: "5777",
    },
-   infura_ropsten: {
+   infura_sepolia: {
       provider: function() {
-        return new HDWalletProvider(MNEMONIC, "https://ropsten.infura.io/v3/" + ROPSTEN_PROJECT_ID,0,5)
+        return new HDWalletProvider(MNEMONIC, "https://sepolia.infura.io/v3/" + ROPSTEN_PROJECT_ID,0,1)
       },
-      network_id: 3,
+      network_id: 11155111,
+      gasPrice: 10000000000,
     },
   },
   compilers: {

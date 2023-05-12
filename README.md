@@ -1,11 +1,13 @@
 # CNH Coin (CNHC)
-CNHC Group Limited (CGL) issues CNH collateralized stablecoin public smart contract repository.
+Trust Reserve Limited (TRL) issues CNH collateralized stablecoin public smart contract repository.
 
 Official website: [https://www.cnhc.to](https://www.cnhc.to)
 
 [View ERC20 token (Ethereum) contract](https://etherscan.io/address/0x9293C7B4B4FB90FB3EE76f7C6189aA841E57E5c0)
 
-[View CRC20 token (Conflux) contract](https://confluxscan.io/address/cfx:accbh92gw9wzvdxacn7tc3rb7g7tk2uv363s37tr30)
+[View ERC20 token (Conflux eSpace) contract](https://evm.confluxscan.io/token/0x9293c7b4b4fb90fb3ee76f7c6189aa841e57e5c0)
+
+[View CRC20 token (Conflux Core) contract](https://confluxscan.io/address/cfx:accbh92gw9wzvdxacn7tc3rb7g7tk2uv363s37tr30)
 
 
 ## ABI, address, and verification
@@ -14,7 +16,7 @@ The contract abi is in `CNHCToken.abi`. It is the abi of the implementation cont
 
 ## Contract Specification
 
-CNHC is a token that is Centrally Minted and Burned by CGL, representing the trusted party backing the token with CNH.
+CNHC is a token that is Centrally Minted and Burned by TRL, representing the trusted party backing the token with CNH.
 
 ### ERC20 Token
 
@@ -40,7 +42,7 @@ Typical interaction with the contract will use `transfer` to move the token as p
 
 ### Controlling the token supply
 
-The total supply of CNHC is backed by fiat held in reserve at CGL. An owner address can submit proposals for minting and burning the token and several voters can audit the proposals based on the actual movement of cash in and out of the reserve based on requests for the purchase and redemption of CNHC.
+The total supply of CNHC is backed by fiat held in reserve at TRL. An owner address can submit proposals for minting and burning the token and several voters can audit the proposals based on the actual movement of cash in and out of the reserve based on requests for the purchase and redemption of CNHC.
 
 
 Votable Events
@@ -53,7 +55,7 @@ Votable Events
 
 ### Pausing the contract
 
-In the event of a critical security threat, CNHC Group Limited has the ability to pause and unpause transfers and approvals of the CNHC token. The ability is controlled by a single `owner` role,  following OpenZeppelin's [Ownable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/access/Ownable.sol). The simple model for pausing transfers following OpenZeppelin's [Pausable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/utils/Pausable.sol).
+In the event of a critical security threat, Trust Reserve Limited has the ability to pause and unpause transfers and approvals of the CNHC token. The ability is controlled by a single `owner` role,  following OpenZeppelin's [Ownable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/access/Ownable.sol). The simple model for pausing transfers following OpenZeppelin's [Pausable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/utils/Pausable.sol).
 
 
 ## Contract Tests
