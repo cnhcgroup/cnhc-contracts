@@ -1,7 +1,7 @@
 # CNH Coin (CNHC)
 Trust Reserve Limited (TRL) issues CNH collateralized stablecoin public smart contract repository.
 
-Official website: [https://www.cnhc.to](https://www.cnhc.to)
+Official website: [https://www.trustreserve.com](https://www.trustreserve.com)
 
 [View ERC20 token (Ethereum) contract](https://etherscan.io/address/0x9293C7B4B4FB90FB3EE76f7C6189aA841E57E5c0)
 
